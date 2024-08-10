@@ -1,4 +1,58 @@
-body style{background-color:powderblue;
-font-size: 25px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #a096d1;
+}
 
+.container {
+    background-color: #e5eaf1a2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(168, 83, 202, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+header {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
+h1.name {
+    font-size: 3em;
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table td {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+hr {
+    margin: 20px 0;
 }

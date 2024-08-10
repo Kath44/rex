@@ -4,168 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #a096d1;
+        }
+        .container {
+            background-color: #e5eaf1a2;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+        }
+        header {
+            text-align: center;
+        }
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+        h1.name {
+            font-size: 3em;
+            margin: 0;
+        }
+        section {
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table td {
+            padding: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        hr {
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <!--header-->
-    <header>
-        <table>
-            <tr>
-                <td>
-                    <img src="./292103405_1182450465658274_8079795819103991806_n.jpg" alt="" width=" 127px">
-                </td>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <table>
+                <tr>
                     <td>
-                        <h1 class = "name">Mary Kathleen M. <br></span> Repunte</span></h2>
-                            
-                </td>
-            </tr>
-        </table>
-    </header>
-    <br>
-    <!--Personal Background-->
-    <section>
-        <h2>Personal Background</h2>
-     <hr>
-        <table >
-            <tr>
-                <td>
-                    <h3>Name</h3>
-                </td>
-                <td>
-                    <ul>
-                        <p>Mary Kathleen M. Repunte</p>
-                    </ul>
-                  
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Email Address</h3>
-                </td>
-                <td>
-                    <ul>  <p>kathrepunte44@gmail.com</p></ul>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Phone Number</h3>
-                </td>
-                
-                <td>
-                    <ul>
-                        <p>09753137977</p>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Sex</h3>
-                </td>
-                <td>
-                    <ul>
-                        <p>Female</p>
-                    </ul>
-                  
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Date of Birth</h3>
-                </td>
-                <td>
-                    <ul>
-                        <p>December 04, 2003</p>
-                    </ul>
-                  
-                </td>
-            </tr>
-            
-
-            <tr>
-                <td>
-                    <h3>Age</h3>
-                </td>
-                <td>
-                    <ul>
-                        <p>20</p>
-                    </ul>
-                  
-                </td>
-            </tr>
-        </table>
-    </section>
-    <br>
-    <!--summary-->
-</section>
-<h2>Summary</h2>
-<hr>
-<p>I was so excited when my former coworker, Jay Lopez, told me about your opening for an administrative 
-    assistant in your Portland offices. A long -time Veggies to Go customer and an experienced admin,
-     I would love to help the company achieve its mission of making healthy produce as available as takeout. 
-</p>
-<section>
-    <br>
-<!--EDUCATIONAL BACKGROUND-->
-<section>
-   <h2>EDUCATIONAL BACKGROUND</h2>
-   <hr>
-   <table>
-    <tr>
-        <td>
-            <strong>College Level</strong>
-        </td>
-        <td>
+                        <img src="./kath.jpg" alt="Mary Kathleen M. Repunte" width="250px" height="300px"class="center">
+                    </td>
+                    <td>
+                        <h1 class="name">Mary Kathleen M. <br> Repunte</h1>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <hr>
+        <!-- Personal Background -->
+        <section>
+            <h2>Personal Background</h2>
+            <hr>
+            <table>
+                <tr>
+                    <td><h3>Name</h3></td>
+                    <td><p>Mary Kathleen M. Repunte</p></td>
+                </tr>
+                <tr>
+                    <td><h3>Email Address</h3></td>
+                    <td><p>kathrepunte44@gmail.com</p></td>
+                </tr>
+                <tr>
+                    <td><h3>Home Address</h3></td>
+                    <td><p>Cantao-an, City of Naga, Cebu</p></td>
+                </tr>
+                <tr>
+                    <td><h3>Phone Number</h3></td>
+                    <td><p>09753137977</p></td>
+                </tr>
+                <tr>
+                    <td><h3>Sex</h3></td>
+                    <td><p>Female</p></td>
+                </tr>
+                <tr>
+                    <td><h3>Date of Birth</h3></td>
+                    <td><p>December 04, 2003</p></td>
+                </tr>
+                <tr>
+                    <td><h3>Age</h3></td>
+                    <td><p>20</p></td>
+                </tr>
+               
+            </table>
+        </section>
+        <hr>
+        <!-- Educational Background -->
+        <section>
+            <h2>Educational Background</h2>
+            <hr>
+            <table>
+                <tr>
+                    <td><strong>College Level</strong></td>
+                    <td>
+                        <ul>
+                            <li>Bachelor of Science in Information Technology</li>
+                            <li>St. Cecillia’s College-Cebu, Inc.</li>
+                            <li>June 2016</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Junior High School</strong></td>
+                    <td>
+                        <ul>
+                            <li>Cantao-an National High School</li>
+                            <li>2016-2019</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Elementary</strong></td>
+                    <td>
+                        <ul>
+                            <li>Cantao-an Elementary School</li>
+                            <li>2013-2016</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <!-- Hobbies -->
+        <section>
+            <h2>Hobbies</h2>
+            <hr>
             <ul>
-                <li>Bachelor of Science in Information Technology</li>
-                <li>St. Cecillia’s College-Cebu,Inc.</li>
-                <li>June 2016</li>
+                <li>Reading Stories</li>
+                <li>Listening to Music</li>
+                <li>Watching Movies / Series</li>
             </ul>
-        </td>
-    </tr>
-    <td>
-        <strong>JUNIOR HIGH SCHOOL</strong>
-    </td>
-    <td>
-        <ul>
-            <li>Cantao-an National High School</li>
-            <li></li>  2016-2019</li>
-        </ul>
-    </td>
-    <tr>
-        
-        <td>
-                <strong>ELEMENTARY </strong>
-            </td>
-            <td>
-                <ul>
-                    <li>Cantao-an Elementary School</li>
-                    <li>  2013-2016 </li>
-                </ul>
-           
-        </td>
-    </tr>
-   </table>
-</section>
-<br>
-<!--Hobbies-->
-<section>
-    <h2>Hobbies</h2>
-    <hr>
-    <table>
-        <tr>
-            <td>
-                <ul>
-                    <li>Reading Stories</li>
-                    <li>Listening Music</li>
-                    <li>Watching Movies /Series</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-</section>
-
-
-
-    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-    
+        </section>
+    </div>
 </body>
 </html>
